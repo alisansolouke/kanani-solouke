@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🍽 منوی اسپز خونه‌ای لاکچری 🍽</title>
+    <style>
+        /* تنظیمات کلی صفحه */
+        body {
+            font-family: 'Tahoma', sans-serif;
+            direction: rtl;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* استایل منو با عرض داینامیک */
+        .menu-container {
+            width: 90%;  /* تنظیم عرض به درصد */
+            max-width: 450px;  /* حداکثر عرض برای جلوگیری از کشیدگی */
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            border: 4px solid #d32f2f;
+        }
+
+        /* عنوان منو */
+        h1 {
+            color: #d32f2f;
+            font-size: 24px;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        /* لیست غذاها */
+        .menu {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        /* آیتم‌های منو */
+        .item {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px;
+            background: #ffe0e0;
+            border-radius: 8px;
+            font-size: 18px;
+            color: #333;
+            font-weight: bold;
+            transition: all 0.3s ease-in-out;
+        }
+
+        /* افکت هاور در دسکتاپ */
+        @media (min-width: 600px) {
+            .item:hover {
+                background: #ffbdbd;
+                transform: scale(1.05);
+                cursor: pointer;
+            }
+        }
+
+        /* قیمت غذا */
+        .price {
+            font-weight: bold;
+            color: #b71c1c;
+        }
+
+        /* استایل فوتر */
+        footer {
+            margin-top: 20px;
+            padding: 8px;
+            background-color: #d32f2f;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            border-top: 3px solid #b71c1c;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="menu-container">
+        <h1>🔥 منوی آشپز خانه محمد 🔥</h1>
+        <div class="menu">
+            <div class="item">
+                <span>🍗 چلو مرغ</span>
+                <span class="price">220,000 تومان</span>
+            </div>
+            <div class="item">
+                <span>🥘 قورمه سبزی</span>
+                <span class="price">200,000 تومان</span>
+            </div>
+            <div class="item">
+                <span>🥩 کباب کوبیده</span>
+                <span class="price">250,000 تومان</span>
+            </div>
+            <div class="item">
+                <span>🍢 جوجه کباب</span>
+                <span class="price">230,000 تومان</span>
+            </div>
+            <div class="item">
+                <span>🥩 کباب برگ</span>
+                <span class="price">320,000 تومان</span>
+            </div>
+            <div class="item">
+                <span>🔥 کباب بناب</span>
+                <span class="price">290,000 تومان</span>
+            </div>
+            <div class="item">
+                <span>🍖 چنجه</span>
+                <span class="price">350,000 تومان</span>
+            </div>
+            <div class="item">
+                <span>🩸 جیگر</span>
+                <span class="price">170,000 تومان</span>
+            </div>
+            <div class="item">
+                <span>🥣 سوپ خامه‌ای</span>
+                <span class="price">120,000 تومان</span>
+            </div>
+            <div class="item">
+                <span>🍵 سوپ مخصوص</span>
+                <span class="price">100,000 تومان</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- فوتر -->
+    <footer>
+        🚀 ساخته شده توسط هکبمبر 🔥
+    </footer>
+
+</body>
+</html>
